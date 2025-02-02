@@ -5,7 +5,7 @@ import { SlHandbag } from "react-icons/sl"
 
 export default function Services(){
     return(
-        <div className="grid grid-cols-4 gap-9 m-28">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-9 m-12 md:m-28">
             <div className=" text-center border-2 py-8">
             <BiStore className="mx-auto size-16 text-white bg-black p-1 rounded-full border-8"/>
                 <h3 className="font-semibold text-2xl">10.5k</h3>

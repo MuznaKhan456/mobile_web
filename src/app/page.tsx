@@ -8,7 +8,7 @@ import Hero from "./component/hero";
 
 export default function Home() {
   return (
-    <div className="  mx-20">
+    <div className=" sm:mx-2 lg:mx-20">
         <Hero/>
         <Todays />
         <Categories />

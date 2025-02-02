@@ -4,7 +4,7 @@ import { RiCustomerServiceFill, RiShieldCheckFill } from "react-icons/ri"
 export default function Owner(){
     return(
         <div>
-        <div className="grid grid-cols-3 grid-row-1 gap-6 mx-40">
+        <div className="grid grid-cols-1 md:grid-cols-3 grid-row-1 gap-6 mx-3 md:mx-40">
             <div className="border-2 ">
                 <div  className="bg-slate-200 px-9" >
                 < Image src="/image 46.png" alt="" width={1000}height={1000} className="h-full w-full"/>
@@ -28,7 +28,7 @@ export default function Owner(){
             </div>
        </div>
     
-                   <div className="flex gap-40 justify-center py-24">
+                   <div className="md:flex gap-40 justify-center py-24">
                    <div className="text-center"><TbTruckDelivery className=" mx-auto size-16 text-white bg-black p-1 rounded-full border-8" />
                    <h4 className="font-bold py-2">FREE AND FAST DELIVERY</h4>
                    <p>Free delivery for all orders over $140</p>

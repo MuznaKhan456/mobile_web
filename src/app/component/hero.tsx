@@ -1,6 +1,6 @@
-import { Link } from "lucide-react"
+
 import React from "react"
-import { FaApple, FaArrowRight } from "react-icons/fa6"
+import { FaApple } from "react-icons/fa6"
 import { IoIosArrowForward } from "react-icons/io"
 import Image from "next/image"
 export default function Hero(){
@@ -35,21 +35,20 @@ return (
   </ul>
     </div>
       
-  <div className="flex items-center bg-black rounded-lg p-6 px-10">
-    <div className=" text-white flex flex-col justify-center space-y-5 h-[400px] sm:w-[180px] md:w-[300px] lg:w-[400px]">
+  <div className="md:flex items-center bg-black rounded-lg p-6 px-10 mt-0 md:mt-7">
+    <div className=" text-white flex flex-col justify-center space-y-5 h-[400px] w-[220px] md:w-[300px] lg:w-[400px]">
         <div className="flex items-center gap-2">
-<FaApple className="sm:text-2xl md:text-4xl"/>
-<span className="sm:text-sm md:text-base font-semibold">iphone 14 Series</span>
+<FaApple className="text-2xl md:text-4xl"/>
+<span className="text-sm md:text-base font-semibold">iphone 14 Series</span>
         </div>
-<h1 className="sm:text-2xl md:text-4xl lg:text-5xl font-bold leading-snug">Up to 10% off Voucher</h1>
-<Link href={"#products"} className="underline underline-offset-4 hover:font-semibold flex items-center gap-2">
-Shop Now
-<FaArrowRight />
-</Link>
+<h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug">Up to 10% off Voucher</h1>
+<button  className="underline underline-offset-4 hover:font-semibold flex items-center gap-2">
+
+Shop Now</button>
     </div>
 
-    <div className="ml-auto">
-        <Image src="/phone.jpeg" alt="" height={500} width={500} />
+    <div className="">
+        <Image src="/phone.jpeg" alt="" height={500} width={500} className="-mt-16 md:-mt-0"/>
     </div>
 
     </div>   
