@@ -14,7 +14,7 @@ export default function Featured() {
                     New Arrival
                 </h2>
             </div>  
-            <div className="grid grid-cols-1 md:grid-cols-4 grid-row-2 gap-6 text-white pt-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 md:grid-row-2 gap-6 text-white pt-4">
                 <div className="bg-black col-span-2 row-span-2 relative">
                     <div className="absolute left-4 bottom-3 text-white">
                         <h1 className="sm:text-lg font-bold md:text-xl">Playstation</h1>
@@ -40,7 +40,7 @@ export default function Featured() {
                         </div>
 
 
-    <div className="bg-black relative h-full w-full mt-3 md:mt-0">
+    <div className="hidden md:block bg-black relative h-full w-full mt-3 md:mt-0">
         <div className="absolute left-4 bottom-3">
             <h1 className="sm:text-sm font-bold md:text-xl">Speaker</h1>
             <p className="relative bottom-0 text-xs md:py-1 ">Amazon wireless speakers</p>
@@ -48,7 +48,7 @@ export default function Featured() {
         </div>
         <Image src="/clipart.png" alt="" width={200} height={200} className="p-4 ml-16"/>
     </div>
-    <div className="bg-black relative h-full w-full mt-3 md:mt-0">
+    <div className="bg-black relative h-full w-full mt-3 md:mt-0 mx-3 md:mx-0">
         <div className="absolute left-4 bottom-3">
             <h1 className="sm:text-sm font-bold md:text-xl">Perfume</h1>
             <p className="relative bottom-0 text-xs md:py-1 ">GUCCI INTENSE OUD EDP</p>
